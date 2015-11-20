@@ -27,7 +27,6 @@ public class Forgot_pwd extends Activity {
         initializewiget();
         setclicklistner();
     }
-    // This is comment
 
     private void initializewiget() {
 
