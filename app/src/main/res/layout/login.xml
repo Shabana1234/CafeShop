@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="false">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginBottom="15dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:hint="@string/email"
+            android:padding="10dp"
+            android:background="@drawable/rounded_corner"
+            android:id="@+id/ed_cafe_username" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textPassword"
+            android:background="@drawable/rounded_corner"
+            android:ems="10"
+            android:padding="10dp"
+            android:hint="@string/pwd"
+            android:layout_marginTop="10dp"
+            android:id="@+id/ed_cafe_password" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:weightSum="1">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/login"
+                android:layout_weight="0.5"
+                android:background="@drawable/btn_rouded_corners"
+                android:id="@+id/btn_cafe_login_submit" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/cancel"
+                android:layout_weight="0.5"
+                android:layout_marginLeft="8dp"
+                android:background="@drawable/btn_rouded_corners"
+                android:id="@+id/btn_cafe_login_cancel" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_account"
+                android:textSize="20dp"
+                android:layout_marginRight="25dp"
+                android:id="@+id/tv_cafe_login_create_account" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/forgot_pwd"
+                android:textSize="20dp"
+                android:id="@+id/tv_cafe_login_forgot_pwd" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

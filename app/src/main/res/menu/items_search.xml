@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_item_search"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@drawable/icon_search"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_bar_button_search">
+    </item>
+    <item
+        android:id="@+id/menu_item1"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@drawable/refresh"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_bar_button_search">
+    </item>
+
+
+</menu>

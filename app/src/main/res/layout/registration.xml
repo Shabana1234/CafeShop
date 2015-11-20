@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4659A6"
+    android:fillViewport="false">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/registration"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:id="@+id/tv_reg_text" />
+
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:layout_gravity="center"
+                android:hint="@string/name"
+                android:padding="10dip"
+                android:background="@drawable/rounded_corner"
+                android:layout_marginTop="30dp"
+                android:ems="10"
+                android:id="@+id/ed_cafe_reg_name"
+             />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:padding="5dip"
+            android:inputType="phone"
+            android:ems="10"
+            android:hint="@string/mo_no"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_corner"
+            android:id="@+id/ed_cafe_reg_mo_no" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:padding="5dip"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:hint="@string/email"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_corner"
+            android:id="@+id/ed_cafe_reg_email" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:padding="5dip"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:hint="@string/pwd"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_corner"
+            android:id="@+id/ed_cafe_reg_pwd" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:padding="5dip"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:hint="@string/confirm_pwd"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_corner"
+            android:id="@+id/ed_cafe_reg_confirm_pwd" />
+
+        <Button
+            android:layout_width="290dp"
+            android:layout_height="match_parent"
+            android:text="@string/submit"
+            android:background="@drawable/btn_rouded_corners"
+            android:layout_marginTop="20dp"
+            android:id="@+id/btn_cafe_reg_submit"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/condition"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:id="@+id/tv_cafe_reg_terms" />
+
+
+    </LinearLayout>
+</ScrollView>
